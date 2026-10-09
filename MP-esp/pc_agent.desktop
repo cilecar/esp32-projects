@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=PC Agent (ntfy WoL)
+Exec=python3 /path/to/MP-esp/pc_agent.py
+Hidden=false
+X-KDE-autostart-enabled=true

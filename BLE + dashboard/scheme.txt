@@ -1,0 +1,31 @@
+OLED дисплей 0.96" (I2C):
+
+    SDA -> GPIO 21
+
+    SCL -> GPIO 22
+
+    VCC -> 3.3V
+
+Модуль карты Micro-SD (VSPI):
+
+    MOSI -> GPIO 23
+
+    MISO -> GPIO 19
+
+    SCK -> GPIO 18
+
+    CS -> GPIO 4
+
+    VCC -> 5V
+
+Модуль энкодера:
+
+    GND -> GND
+
+    5V -> 3.3V
+
+    S1 (CLK/Фаза A) -> GPIO 16
+
+    S2 (DT/Фаза B) -> GPIO 17
+
+    KEY (SW/Кнопка) -> GPIO 15

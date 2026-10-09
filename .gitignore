@@ -1,0 +1,26 @@
+# Секреты: реальные значения живут только локально (см. *.example)
+secrets.h
+credentials.py
+.ntfy_topic
+.gemini_key
+.env
+vault.txt
+vault.enc
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Сборка Arduino
+build/
+*.bin
+*.elf
+*.map
+*.bak
+
+# Большие и генерируемые файлы
+*.pt
+*.mp4
+*.mjpeg
+*.log
